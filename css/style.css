@@ -1,0 +1,65 @@
+/* || Temporary || */
+.inProgress {
+  background-color: rgb(43, 44, 44);
+  border-radius: 2rem;
+  padding: 2rem;
+  border: double 5px  #0e0f11;
+}
+/* || UTILS ||  */
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #030303 #1e1e1e;
+}
+main{
+  padding-top: 2%;
+  min-height: 100vh;
+}
+body {
+  background-color: #1e1e1e;
+   color: azure; 
+}
+header,
+footer {
+ height: 10vh;
+  background-color: #0e0f11;
+ color: azure; 
+}
+header{
+  display: flex;
+  align-items: center;
+justify-content: flex-start;
+}
+.logoImg {
+  position: relative;
+  height: 100%;
+  width: auto;
+  right: 1%;
+  order: 2;
+}
+.menu input {
+  appearance: none;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;  
+  margin: 2%;
+  order:1;
+          
+}
+.menu::before,
+.menu input,
+.menu::after {
+  content: "";
+  display:block;
+  background-color: rgb(214, 212, 214);
+  width: 34px;
+  height: 4px;
+  border-radius: 2rem;
+}
+
